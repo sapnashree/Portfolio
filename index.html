@@ -2,337 +2,156 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-
-    <style>
-      body{
-       
-           background-color: black;
-        }
-
-        .navbar {
-            float: right;
-            height: 80px;
-            padding: 15px;
-            margin-left: 30px;
-        }
-        ul{
-           list-style-type: none;/*use to remove disc/dots of list items*/
-           overflow: hidden;
-           margin: 0;/*use to give zero spacing to left hand side*/
-            padding: 0;
-            color: white;
-           
-        }
-        li, a{
-            text-decoration: none;/*used to remove that underline */
-            text-align: center;
-            font-size: 20px;
-            display: inline-block;
-            padding:5px;
-            text-decoration: none;
-            color: white;
-        }
-        a:hover {
-  /* background-color: rgb(112, 112, 85); */
-  background-color: white;
-}
- .display-1{
-padding-top: 200px;
-text-align: center;
-margin-left: 100px;
-color: white;
- } 
- .display-3{
-text-align: left;
-font-weight: 600;
-margin-left: 100px;
-color: white;
- } 
- .display-5{
-text-align: left;
-font-weight: 600;
-padding-left:88px;
-margin-left: 7px;
-color: white;
- } 
- .abt{
-     border: 1px solid white;
-     display: block;
-     margin: 0 auto;
-     padding: 5px;   
- } /*about*/ 
- .pic{
-           display: flex;
-            background-color: black;
-            margin-left: auto; 
-          float: left;
-          margin-top: 30px;
-          align-items: center;
-}
-.pic .section{
-            margin-top: 10px;
-            width: 50%;
-            padding: 10px;
-            font-size: 20px;          
-}
-
-.skill {
-    display: flex;
-  width: 33.33%;
-  padding: 5px;
-}
-.skill .tools {
-   margin: 20px;
-}
-/*service*/
-.serve1{
-display: flex;
-background-color: white;
-            margin-left: 10px; 
-        margin-right: 10px;
-          text-align: center;
-          
-}
-.serve1 .serve2{
-    margin-top: 5px;
-            width: 100%;
-            padding: 10px;
-            font-size: 20px;   
-            
-}  
-.pbtn{
-    color: black;
-    font-size: 20px;
-    border: none;
-    background-color: white;
-    text-align: center;
-    padding: 5px;
-}
-/*contact*/  
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-.contact{
-    display: flex;
-    background-color: white;
-  
-}
-.contact .box{
-    margin: 15px;
-    padding: 10px;
-  
-}
-.btn{
-    background-color:black;
-    color: white;
-    border: none;
-    padding: 15px;
-    margin: 20px;
-}
-
-
-.container {
-        display: flex;
-    }
-
-    .profile-image {
-        border-radius: 50%;
-        float: right;
-    }
-
-    .content {
-        text-align: left;
-        margin-left: 20px;
-        color: rgb(189, 187, 187);
-    }
-
-    .download-button {
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 10px;
-    margin-left: 80px;
-    width: 145px;
-}
-
-
-/* skills */
-* {box-sizing: border-box}
-
-.container2 {
-  width:50%;
-  background-color: #ddd;
-}
-
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
-
-.html {width: 90%; background-color: #808080;color:white}
-.css {width: 80%; background-color: #808080;color:white}
-.js {width: 65%; background-color: #808080;color:white}
-.php {width: 60%; background-color: #808080;color:white}
-   </style>
+    <title>Mahesh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
-
 <body>
-   <div class="navbar">
-       <ul>
-           <!-- <li><a href="Home.html"> Home</a></li> -->
-           <li><a href="#about">About</a></li>
-           <li><a href="#exp">Experience</a></li>
-           <!-- <li><a href="#Contact">Contact Me</a></li> -->
-       </ul>
-   </div>
 
-   <div class="container">
-    <div>
-        <img src="profile.jpeg" alt="sapna" class="profile-image">
-    </div>
-    <div class="content">
-        <h2 class="display-3">I am Sapna,</h2>
-        <h3 class="display-5">Front end Developer</h3>
-        <p style="padding-left: 84px; font-size: 18px;"> I design and code beautifully simple things, and I love what I do.</p>
-        <div class="download-button">
-            <a href="resumee.pdf">
-                <button class="abt">Download CV</button>
-            </a>
-        </div>
-    </div>
-</div>
-     <!--ABOUT-->
-<div id="about">
+    <main>
+        <section class="firstsection">
+          <div class="leftsection">
+            Hi, My name is <span class="purple">Sapna</span> 
+            <div>and I am a</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <div class="button-container">
+                  <button class="Btn"><a target="_blank" href="myresume.pdf">Download resume</a></button>
+                  <button class="btn"><a target="_blank" href="https://github.com/sapnashree/">Visit Github</a></button>
+                </div>
+              </div>
+              
+          </div>
+          <div class="rightsection">
+            <img src="developer.png" alt="">
+          </div>
+        </section>
 
-    <div style="color: white; font-size:22px;text-align: center;">
-        <strong>WHO I AM?</strong>
-    </div>
-  
-    <div style="color: white; font-size: 18px; padding-top: 10px; word-spacing: 1px; margin-left: 9px;"><p style="color: white; font-size: 18px;word-spacing: 1px; margin-left: 9px;text-align: center;">Hi, I’m Sapna. Nice to meet you.<br></p>
-       I have done my <b> B.sc (C.Sc) </b>from GCG-42 Chandigarh.
-        A bright, talented, ambitious and self-motivated web designer with a strong technical background who possesses self-discipline and the ability to work with the minimum of supervision. A good team player, who thrives on creating engaging creative solutions, is deadline orientated and has the ability to produce detailed technical specifications from client requirements. A quick learner, who can absorb new ideas and can communicate clearly and effectively.
-         Currently looking for a opportunity to join a dynamic, ambitious, growing company and forge a career as a website designer.
-        <br>
-        </div>
-        <!-- SKILLS -->
-        <br><h3 style="color: white; margin-left: 9px;"> My Skills</h3>
-<div>
-        <p style="color:white">HTML</p>
-        <div class="container2">
-          <div class="skills html">90%</div>
-        </div>
-        
-        <p style="color:white">CSS</p>
-        <div class="container2">
-          <div class="skills css">80%</div>
-        </div>
-        
-        <p style="color:white">bootstrap</p>
-        <div class="container2">
-          <div class="skills js">75%</div>
-        </div>
+        <hr>
 
-        <p style="color:white">JavaScript</p>
-        <div class="container2">
-          <div class="skills js">70%</div>
-        </div>
-
-        <p style="color:white">Wordpress</p>
-        <div class="container2">
-          <div class="skills js">70%</div>
-        </div>
-
-        <p style="color:white">sql</p>
-        <div class="container2">
-          <div class="skills js">60%</div>
-        </div>
-        
-        <p style="color:white">PHP</p>
-        <div class="container2">
-          <div class="skills php">50%</div>
-        </div>
-    </div>       
-    <section style="color: white; font-size: 12px; padding-top: 10px; word-spacing: 2px; margin-left: 9px;">
-       <br>
-</section></div>
-<!--SERVICES-->
-<div id="exp">
-    <span style="color: #ddd; font-size: 22px; margin-left: 9px;font-weight: 900;">Experience</span><br>
-<span style="color: white; font-size: 16px; margin-left: 9px;">HockeyCurve Growth Solutions Pvt. Ltd.<br> &nbsp; May-22 to June-23 <br> &nbsp; Front End Developer
-   <br>&nbsp; To create dynamic ads and create website
-</span>
-<div  style="color: white; font-size: 26px; margin-left: 9px;">
-Projects:- <br>
-</div>
-<span  style="color: white; margin-left: 30px;"> <b style=" font-size:18px;"> Analytical Dashboard-</b> I worked on the dashboard where we are presenting the data of a particular campaign of a particular client. Like what is the impression, clicks and CTR of a campaign.
-  <br>  &nbsp;&nbsp; &nbsp; &nbsp;<b style=" font-size:18px;">Language used-</b> HTML, CSS, sql and php
-    </span><br><br><br>
-<span  style="color: white; margin-left:30px;"> <b style=" font-size:18px;">  Selfserve Tool- </b> In this tool a non tech person come and follow the few steps and they can creates an ad without any help of technical person. I design their register,login and forgot password page. 
-    <br> &nbsp; &nbsp; &nbsp; &nbsp;<b style=" font-size:18px;">Language used-</b> HTML, CSS and php</span>
- <br><br> <br> 
- <span  style="color: white; margin-left: 30px;"> <b style=" font-size:18px;"> Product library- </b>In this we are showing Company's Best performing ad with slicing
-            and dicing ad. When user click on the image it will redirect it to detailed page where the original template in iframe will displayed'
-         <br>  &nbsp;&nbsp; &nbsp; &nbsp;<b style=" font-size:18px;">Language used-</b> HTML, CSS, sql and php
-              </span>
-
-
-
-
- <br><br>
- <p style="color: white; font-size: 16px; margin-left: 9px;"><strong>My Personal Project-</strong> </p>
-
-<div >
-    <p style="color: white; margin-left: 9px; "> Project Name- Shree Bridal Makeover & Acedemy  <br>
-    I have developed a website for bridal makeover and learning acedemy where any one can learn makeup and gets their own makeover. In this there are all type of makeup like bridal( haldi ,sangeet and mehendi ) and party makeup. 
-    I use html and css to develope this website also used java script to give dynamic changes in it.</p> <br>
-<a href="makeup\home.html"><button class="pbtn">View Project </button></a>
-</div>
-
-
-</div>
-<!-- FOOTER -->
-<div >
-  
-      <footer class="page-footer" >
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="grey-text text-lighten-4 right" style="color: white;">Contact Details</h5>
-              <p class="grey-text text-lighten-4" style="color: white;">Email- guptasapna2517@gmail.com <br> Mobile No:- +919049667486</p>
+       <section class="thirdsection">
+          <h1>Skills</h1>
+          <div class="logos">
+            <div class="html">
+                <img src="html.png" alt="html">
+                <p>HTML</p>
             </div>
-            <div class="col l6 offset-l3 s12">
-              <h5 class="white-text" style="color: white;">Linkedin Link</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/sapna-g-912b61231" style="white-space: nowrap;">https://www.linkedin.com/in/sapna-g-912b61231</a></li>
-            </ul>
+            <div class="html">
+                <img src="css.png" alt="css">
+                <p>CSS</p>
+            </div>
+            <div class="html">
+                <img src="js.png" alt="js">
+                <p>Javascript</p>
+            </div>
+            <div class="html">
+                <img src="bootstrap.png" alt="bt">
+                <p>Bootstrap</p>
+            </div>
+            <div class="html">
+                <img src="jquery.png" alt="jq">
+                <p>Jquery</p>
+            </div>
+            <div class="html">
+                <img src="php.png" alt="php">
+                <p>Php</p>
+            </div>
+            <div class="html">
+                <img src="mysql.png" alt="mys">
+                <p>MySql</p>
             </div>
           </div>
-        </div>
-      </footer>
-      
-</div>
+       </section>
 
+<hr>
+
+       <section class="secondsection">
+        <h1>Work Experience</h1>
+        <div class="leftbox">
+          <span>
+              <h1>Front End Developer</h1>
+              <p>HockeyCurve Growth Solutions Pvt. Ltd.</p>
+              <p>(May-2022 to June-2023)</p>
+          </span>
+        </div>
+        <div class="rightbox">
+            <ul>
+                <li>To create dynamic ads with smooth animation and transitions</li>
+                <li>Translating design mockups or wireframes into interactive web pages or application interfaces using HTML, CSS, and JavaScript.</li>
+               <li>Collaborating with designers, back-end developers, and other stakeholders to ensure a seamless user experience.</li>
+               <li>Writing clean, maintainable, and efficient code.</li>
+               <li> Optimizing websites for performance and speed.</li>
+               <li>Testing and debugging front-end code to identify and fix issues or bugs.</li>
+               <li>To coordinate with the testing team to check the website and advertising for issues.</li>
+               <li>Staying up to date with industry trends, best practices, and emerging technologies related to front-end development.</li>
+            </ul>
+        </div>
+      </section>
+      <br>
+      <section class="fifthsection">
+        <h1>Projects</h1>
+        <div class="project-section">
+            <div>
+                <!-- <a href="https://01mb.github.io/InstaPe.app/" target="_blank"> -->
+                  <h3>Analytical Dashboard</h3><br><br>
+                  <h5> I worked on the dashboard where we are presenting the data of a particular campaign of a particular client. Like what is the impression, clicks and CTR of a campaign.</h5>
+                  <hr>
+                  <p>HTML, CSS, JavaScript, sql, php</p>
+               </a>
+            </div>
+            <div>
+                <!-- <a href="https://mycrudproject.42web.io/" target="_blank"> -->
+                  <h3>Selfserve Tool</h3><br><br>
+                  <h5>In this tool a non tech person come and follow the few steps and they can creates an ad without any help of technical person. I design their register,login and forgot password page.</h5>
+                  <hr>
+                  <p>HTML, CSS, JavaScript, sql, php</p>
+                </a>
+            </div>
+            <div>
+                <!-- <a href="https://01mb.github.io/food.site/" target="_blank"> -->
+                <h3>Product library</h3><br><br>
+                <h5> we are showing our Best performing ad with slicing and dicing ad. When user click on the image it will redirect it to detailed page where the original template in iframe will displayed.</h5>
+                <hr>
+                <p>HTML, CSS, JavaScript, sql, php</p>
+                </a>
+            </div>  
+        </div>
+        <hr>
+    </section>
+  
+      <section class="fourthsection">
+        <h1>Education</h1>
+        <div class="leftbox">
+            <span>
+                <h3>B.Sc(Computer Science)</h3>
+            </span>
+          </div>
+          <div class="rightbox">
+           <span>Post Graduate Govt. COllege for Girls </span> <br>
+           <p>Sector-42 Chandigarh</p> 
+          </div>
+      </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Get In Touch :</h3>
+            <a target="_blank" href="https://www.linkedin.com/in/sapna-g-912b61231"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://github.com/sapnashree/"><i class="fa fa-github"></i></a>
+            <p>guptasapna2517@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front End Developer', 'Web Designer', 'Web Developer', 'Software Developer.'],
+          typeSpeed: 50,
+        });
+      </script>
 </body>
 </html>
